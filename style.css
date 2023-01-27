@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family= Pacifico & display = swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+
+body {
+ font-size: 100%;
+ background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding:24px;
+}
+.cabecalho-imagem{
+    height: 100px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+
+}
+.cabecalho-menu-item {
+    color:#fff2e7;
+    font-size: 18px;
+    display: block ;
+    margin: 0.8;
+
+}
+
+.conteudo {
+    display: block ;
+    margin: 0.8;
+}
+.conteudo{
+    padding: 32px;
+    border-top:0.4px solid #fff2e7
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px
+
+}
+.comteudo-principa-escrito-titulo{
+ font-family: 'Righteous', cursive;
+ font-weight: 400;
+ font-size: 24px;
+ color: #FFF2E7;
+}
+.conteudo-principal-escrito-botao{
+    background-color:#ECD6C4;
+    width: 185px;
+height: 60px;
+border: nene;
+box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+border-radius: 20px;
+}
+.conteudo-principal-escrito-botao:hover{
+    background-color: rgba(236,214,196,0.53)
+}
+.conteudo-secundario{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    gap:24px;
+    margin-top: 48px;
+}
+.comteudo-secundario-titulo{
+    border-top:0.4px solid #fff2e7
+}
+.rodape{
+    padding: 32px;
+    border-top:0.4px solid #fff2e7
+}
+.radape-imagem{
+    
+}
+.rodape-imagem{
+    height:50px;
+ display:block ;
+ margin: 0 auto;
+}
+
+
+
+
